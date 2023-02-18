@@ -1,0 +1,9 @@
+<!-- <h1>Todo Add</h1>
+<input type="text" [(ngModel)]="todo2">
+<button (click)="add()">Kaydet</button> -->
+
+<h1>Todo Add</h1>
+<input type="text" [(ngModel)]="todo">
+<button (click)="add()">Ekle</button>
+<hr>
+<app-todo-list [todos]="todos" [todo]="todo"></app-todo-list>
